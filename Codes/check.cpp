@@ -7,7 +7,7 @@ void input(int &spc, int &tab, int &charc, int &lns)
 {
     string line = ""; // Variable for input
 
-    cout << "To Input Text press Ctrl + Z to generate EOL character in next line and hit return." << endl;
+    cout << "To Input Text press Ctrl + Z to generate EOF character in next line and hit return." << endl;
     cout << "Enter text: ";
     while (getline(cin, line)) // Input loop (TRUE until Ctrl + Z is pressed)
     {
