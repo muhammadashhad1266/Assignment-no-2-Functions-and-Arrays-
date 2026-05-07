@@ -17,7 +17,7 @@ double stdev(double x[], int n){
     for (int i = 0; i < n; i++){
         sq_sum += (x[i] - mean) * (x[i] - mean);
     }
-    return sqrt(sq_sum / n);
+    return sqrt(sq_sum / n - 1);
 }
 
 int main (){
